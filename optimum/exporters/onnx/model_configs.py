@@ -747,6 +747,8 @@ class ConvNextV2OnnxConfig(ViTOnnxConfig):
 class MobileViTOnnxConfig(ViTOnnxConfig):
     ATOL_FOR_VALIDATION = 1e-4
 
+class MobileViTV2OnnxConfig(ViTOnnxConfig):
+    ATOL_FOR_VALIDATION = 1e-4
 
 class RegNetOnnxConfig(ViTOnnxConfig):
     # This config has the same inputs as ViTOnnxConfig
